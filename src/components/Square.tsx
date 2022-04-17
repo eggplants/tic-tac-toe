@@ -1,5 +1,3 @@
-import "./index.css";
-
 // game grid
 export type SquareValue = "X" | "O" | null;
 type SquareProps = { value: SquareValue; onClick: () => void };
